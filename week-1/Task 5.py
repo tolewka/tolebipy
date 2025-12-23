@@ -1,9 +1,0 @@
->>> result = int(input("Enter the final result: "))
-...
-... number = (result - 16) / 10
-...
-... print("The planned number is:", number)
-...
-Enter the final result: 46
-The planned number is: 3.0
->>>
