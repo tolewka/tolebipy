@@ -1,0 +1,8 @@
+Total number of lines: 3
+Total number of words: 7
+Word frequency:
+hello: 2
+world: 1
+python: 2
+is: 1
+great: 1
