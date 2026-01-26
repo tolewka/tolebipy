@@ -24,9 +24,12 @@ class Manager(Employee):
 def print_employee_info(employees):
     for emp in employees:
         print(f"Role: {emp.get_role()}, Salary: {emp.get_salary()}")
+        if isinstance(emp, Manager):
+            print(f"Bonus: {emp.get_bonus()}")
 
 
 e1 = Employee(1000)
 e2 = Manager(2000, 500)
 
 print_employee_info([e1, e2])
+
